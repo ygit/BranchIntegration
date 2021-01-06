@@ -6,7 +6,8 @@ target 'BranchIntegration (iOS)' do
   use_frameworks!
 
   # Pods for BranchIntegration (iOS)
-  pod 'CleverTap-iOS-SDK' 
+  pod 'CleverTap-iOS-SDK'
+  pod 'Branch'
 
 end
 
