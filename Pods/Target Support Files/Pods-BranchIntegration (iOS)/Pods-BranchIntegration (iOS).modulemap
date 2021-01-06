@@ -1,0 +1,6 @@
+framework module Pods_BranchIntegration__iOS_ {
+  umbrella header "Pods-BranchIntegration (iOS)-umbrella.h"
+
+  export *
+  module * { export * }
+}
