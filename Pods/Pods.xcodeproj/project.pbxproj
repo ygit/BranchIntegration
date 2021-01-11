@@ -17,7 +17,7 @@
 		01DB57A8BB553AEEBE124CC67376F7E7 /* CTEditorImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 5451CBADE5AAA7C0D418880257AE4724 /* CTEditorImageCache.m */; };
 		0226FDF9270D1009516DC3052843D5B7 /* CTFooterViewController~iphoneport.xib in Resources */ = {isa = PBXBuildFile; fileRef = 593B39D927DABF3FB4BD345E27F6180C /* CTFooterViewController~iphoneport.xib */; };
 		0273E303560DD9CBBA8FD3B643E9B7C3 /* UIImageView+HighlightedWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = D3067A4AAA6CD97DD100EB3D1C556ED1 /* UIImageView+HighlightedWebCache.m */; };
-		03B13CAAABAFD42D2320D4A2A8292837 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DC35A1984196F9E015B04E9E90E0BF8 /* SystemConfiguration.framework */; };
+		03B13CAAABAFD42D2320D4A2A8292837 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B53C4BA9454152CC99DFC4B1DFA24D88 /* SystemConfiguration.framework */; };
 		046D6C2FBC9D05C46A7D16312F6684D9 /* SDImageTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = 8410643DF1BEB367237BA9A9A9C99E45 /* SDImageTransformer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		04830F6E329857EE69DF38355FB4A912 /* CTEnumDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 28061D55E86C73F555641A2BC7383ABA /* CTEnumDescription.m */; };
 		051926FFD508DC19FBDE48D3D84102F8 /* CTFooterViewController~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 760E9736BDFE9A1C2E5F6594AF573798 /* CTFooterViewController~ipad.xib */; };
@@ -80,6 +80,7 @@
 		1E50780556FC54553ED7ADF1A5B2C6AB /* CTTypeDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F0F0AEA547BC2005124E502ABFE796E /* CTTypeDescription.m */; };
 		1F8DEBE651C1ADC470205420E485304D /* CTVarCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C80B819D85C4B756F5E414A9F974938 /* CTVarCache.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		207BCE77C97A1AD0960325A83B873A4D /* CleverTapFeatureFlags.m in Sources */ = {isa = PBXBuildFile; fileRef = D1E43B0EDC8C8D235D19128FD688D136 /* CleverTapFeatureFlags.m */; };
+		20E3A2F19CC5CB4B39B98392FB41776E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3294AC8269EE0DC5EC2AAD266765B2A7 /* Foundation.framework */; };
 		21104C0E9478A95E25F070EAD53A816A /* SDWebImageDownloaderConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = C5C5974BA9DC70406503A725F73776BB /* SDWebImageDownloaderConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2148A03A72403EF0DC9CB1ED82358274 /* BranchUniversalObject.h in Headers */ = {isa = PBXBuildFile; fileRef = B5CE6EBFD013217B8A3B8C1D2E011EAC /* BranchUniversalObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		21715CBFF3745ECDBBB74033CC72945A /* Branch+Validator.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F34F0080F19EA29F7775D02B20E3A3D /* Branch+Validator.m */; };
@@ -146,7 +147,7 @@
 		3A263928CC2226C90FD19CCAB8118D2D /* BranchRegisterViewRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 297C8CDBA6CC995D81925BBCDEB9D2EB /* BranchRegisterViewRequest.m */; };
 		3A285F244E0DF40C34E9B117C8E89B69 /* CTPreferences.m in Sources */ = {isa = PBXBuildFile; fileRef = 05BA7BAC38A54D41FA98E1B844CB709B /* CTPreferences.m */; };
 		3B46233CF98AC0B7CB8A6814819A0218 /* CTInboxBaseMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C5DD01534B9BB866D08D4749CF6A7DE8 /* CTInboxBaseMessageCell.m */; };
-		3B5EA321B6FA3DC011B4F106C11429DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 473692364A5045C4EB25EA472A711EE7 /* Foundation.framework */; };
+		3B5EA321B6FA3DC011B4F106C11429DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3294AC8269EE0DC5EC2AAD266765B2A7 /* Foundation.framework */; };
 		3BBA7E4ADF1CD772A62DBC4CD6DCDEC2 /* CTBaseHeaderFooterViewControllerPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = DB56D35B7EE1874DE23F963DE2FCD3FA /* CTBaseHeaderFooterViewControllerPrivate.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		3BC9FBA32697D3095BA1074DC484C3F5 /* CTCoverViewController~iphoneland.xib in Resources */ = {isa = PBXBuildFile; fileRef = 091CEC84517AC62F518AD1D9991C5A44 /* CTCoverViewController~iphoneland.xib */; };
 		3C860D7152D9143F885B4D7957E2DB4C /* CTSwizzler.h in Headers */ = {isa = PBXBuildFile; fileRef = 253B73672B6E3229D793C2D38F5554CE /* CTSwizzler.h */; settings = {ATTRIBUTES = (Project, ); }; };
@@ -236,7 +237,7 @@
 		5C8F2BE3E9DFE086934599F98944F3DA /* CTBaseHeaderFooterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 835417B4FEA0C3781F6EACA7F2A5F654 /* CTBaseHeaderFooterViewController.m */; };
 		5C9520B34F682283D238BFD30CF7209C /* SDInternalMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 80AE48E29935E356022DE9F947AD1A99 /* SDInternalMacros.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		5CE99E287EF0FF46B7AE8EA6350F0661 /* CTInterstitialViewController~ipadland.xib in Resources */ = {isa = PBXBuildFile; fileRef = 658C591F01EE57007BABACDE5DA57B13 /* CTInterstitialViewController~ipadland.xib */; };
-		5CF04998ADA1956D049E438142B71772 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E08C25CAE1B5C4B070086783C20B1C7 /* WebKit.framework */; };
+		5CF04998ADA1956D049E438142B71772 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CD56E17883F7E1EA6E2F6C524EB354B /* WebKit.framework */; };
 		5DBF094097D6F8EDBC61127F7B119A22 /* SDImageCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 95DD823D9BEDA5E740FDB688962B298B /* SDImageCoder.m */; };
 		5DD4B192C6D192B709907DBD99FE23C6 /* UIViewController+Branch.m in Sources */ = {isa = PBXBuildFile; fileRef = C86ED4A7703F9BE70002F1F12CEF7A96 /* UIViewController+Branch.m */; };
 		5F46F84C982144D0B6EA40B4C6F53888 /* BranchCPIDRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 67DD09675F660EC8F66C9A982A30FC1E /* BranchCPIDRequest.m */; };
@@ -295,7 +296,7 @@
 		7587F4AE566196FB2AFAA97C8383F7BE /* BranchLATDRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 35761C0656F29583536A9F8E752BBF86 /* BranchLATDRequest.m */; };
 		75AA590E89C92D7915D9ADB4D4F1B151 /* SDMemoryCache.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9577B64813A8FA6AC65A0ED56B74F0 /* SDMemoryCache.m */; };
 		75D9740FC6DF4E21BA63DF5A8428D336 /* CTABTestEditorMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = A2FA47FCCB0FAA341266CBE87836E141 /* CTABTestEditorMessage.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		761650FC41DEF5BEFFC8CE9688817A9E /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED31212A51F585C3B6D806775A2DC224 /* CoreServices.framework */; };
+		761650FC41DEF5BEFFC8CE9688817A9E /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEB5CC28ACCBE21E8D28D8561FA31210 /* CoreServices.framework */; };
 		765439242C320BB90906FD0026597B8C /* CTInAppResources.m in Sources */ = {isa = PBXBuildFile; fileRef = 21D4878307DAA17B94EFEB4DA026D370 /* CTInAppResources.m */; };
 		7656BF11487E4D76AE38EE6F81DDC316 /* CTAVPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA9587E88976913B553EF497CEF64B1 /* CTAVPlayerViewController.m */; };
 		76DF48B10A918BBC65AD9CB576396E76 /* SDWebImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF65AEFD282E13B93CC53AE1A226ACD /* SDWebImageDownloader.m */; };
@@ -320,7 +321,7 @@
 		7DC6E0E571783DF8B4E25A571788189C /* BranchActivityItemProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = CF4BA61A3B02472DF01C56E3AEFD6C4D /* BranchActivityItemProvider.m */; };
 		7E561AF845929ED50B30F8EA06AC61A0 /* BranchCPIDRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F006B4CDBB04748CACD0E9A93CBBDA4 /* BranchCPIDRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7EFDE7FC87A73FA47C5E16277A7953D2 /* UIImage+MemoryCacheCost.m in Sources */ = {isa = PBXBuildFile; fileRef = F75D308FC629FEAB31DD3C352EA00EED /* UIImage+MemoryCacheCost.m */; };
-		7F55A64324CDD228113FA1CC51D769F2 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7778B6B66BD15AB4088C0CE21EA26C24 /* iAd.framework */; };
+		7F55A64324CDD228113FA1CC51D769F2 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 278A9614C5E5C0E9529B6D5A4437E188 /* iAd.framework */; };
 		7F75A45F5C1BA7B758C1B2304CA7B030 /* SDImageCachesManagerOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = BF33180AFE91C1380E9EE060D995F0F5 /* SDImageCachesManagerOperation.m */; };
 		7FC127616CF1E119267BADAA8D282685 /* CTApplicationStateSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F91ADAF6A6670B6B17B1FC7FE34D9FB /* CTApplicationStateSerializer.m */; };
 		8010B1E11819707AB58522F9EF9F5F91 /* BNCAvailability.m in Sources */ = {isa = PBXBuildFile; fileRef = 164DA136961404844CCE2EBAEC632031 /* BNCAvailability.m */; };
@@ -363,13 +364,13 @@
 		8DD1B3FE9A2A6A64D06DDB3B2B48768D /* CleverTapDisplayUnitContent.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C59F52A7AB3EA27EFCB42D02798680 /* CleverTapDisplayUnitContent.m */; };
 		8DFB88DA53B25ED39D7CB8AA060D6D19 /* CTPropertyDescription.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A65206A99D01EEF09C2AA801306AA83 /* CTPropertyDescription.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		8E41D82EC51214C24A70C15B18613F4A /* BNCInitSessionResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = FB705F9F9AD6C9F7CF5F5F72D833DE3E /* BNCInitSessionResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8F33F81F714338EF28C43192B2E0DC9A /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED8673B1947D25138D68A14893519A80 /* CoreTelephony.framework */; };
+		8F33F81F714338EF28C43192B2E0DC9A /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2B93BBE2B728F0D213586580FB7E8A7 /* CoreTelephony.framework */; };
 		8F74246B0CCA71873407ADDCA8872CC6 /* SDImageAssetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8440C9115A1C6EC60E21BD95696FD3F0 /* SDImageAssetManager.m */; };
 		8FB6650F90F7EF84ACEA2AC542ACCDC5 /* SDImageLoadersManager.h in Headers */ = {isa = PBXBuildFile; fileRef = D0A4605E128DFB7126BB930FAEC60A9C /* SDImageLoadersManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		914D6C35EF1115E707619B4A4AC85486 /* BranchScene.h in Headers */ = {isa = PBXBuildFile; fileRef = 05E6F8E793AD338F42FB2EB8B28967FE /* BranchScene.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		927AC82540F10C178715BE0146917D2B /* CTObjectSerializerContext.h in Headers */ = {isa = PBXBuildFile; fileRef = F0103517D8C0D3E2CA5F8849F0CC8219 /* CTObjectSerializerContext.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		92C76D3E32677B6D39E346F779204D00 /* SDWebImage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BC174D99E560C1D84218917B67E2F89E /* SDWebImage-dummy.m */; };
-		935BDCBAD857EAECBAB0436FD3D19A09 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 473692364A5045C4EB25EA472A711EE7 /* Foundation.framework */; };
+		935BDCBAD857EAECBAB0436FD3D19A09 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3294AC8269EE0DC5EC2AAD266765B2A7 /* Foundation.framework */; };
 		93FDB51EC1EB12CFB25A80FA207F2D36 /* CTPinnedNSURLSessionDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = A26594241F22CB291221EF73790DEB75 /* CTPinnedNSURLSessionDelegate.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		940A2EA85EE39F4F470F5B348CC63261 /* CTCoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61EC31C235B109A2879724F77E1C1156 /* CTCoverViewController.m */; };
 		945717CA6D3521AED525E5649428CF62 /* BNCAppleAdClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 58554082C5649DDEE43557F92184AE21 /* BNCAppleAdClient.m */; };
@@ -429,7 +430,6 @@
 		B170C147824801C55D4F9DBA39C44885 /* SDWebImageCompat.m in Sources */ = {isa = PBXBuildFile; fileRef = 5323B81383CFC82FDE71269D61791131 /* SDWebImageCompat.m */; };
 		B178632B72A7E83940F5DBA5573CFB1F /* SDDisplayLink.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F10A9C9674386E8C961F7551E296ADF /* SDDisplayLink.m */; };
 		B1C6802F10407E0D2090CFF9EC9C5EB5 /* CTHeaderViewController~ipadland.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1CCD3D8C5641C1ECDA6ACD9CA7D795DF /* CTHeaderViewController~ipadland.xib */; };
-		B23A227E80F601768257C457A6D66A49 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B01FD8B0E29035670BC700A3A8A37DB /* Cocoa.framework */; };
 		B2674BE51CFCFBF0383EF3BAD6D690D9 /* CTNSDictionaryFromCGAffineTransformValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 046A6BD728C8773D85D110FEFB86A1C7 /* CTNSDictionaryFromCGAffineTransformValueTransformer.m */; };
 		B2C7F0D6317F7C326E20CB3A8407D2CF /* CleverTapInstanceConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = E68A45BFC18F6EC2FAE533850EE47A32 /* CleverTapInstanceConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B448781986F462E3E89772058DA0DD37 /* CTEditorImageCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 769D3763DB17E10A0F922CE172C4F533 /* CTEditorImageCache.h */; settings = {ATTRIBUTES = (Project, ); }; };
@@ -466,15 +466,15 @@
 		BF21A38538FD82119D9D1A65C8A0B386 /* BNCSKAdNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C5EF5DEF6527782998C34D1112B9F05 /* BNCSKAdNetwork.m */; };
 		BFA628923900AADFB75418442735A5C8 /* UIImage+ExtendedCacheData.m in Sources */ = {isa = PBXBuildFile; fileRef = F0E6083BCE45B7855F1E23F0FDE884B3 /* UIImage+ExtendedCacheData.m */; };
 		BFECE1911FE42FE1F41BB0E1520C1C4E /* CleverTapInboxMessageContent.m in Sources */ = {isa = PBXBuildFile; fileRef = 4516EC2F8E2B0B182AC3285CFBB30B12 /* CleverTapInboxMessageContent.m */; };
-		C0771719A7CF3BC47ED28227C95B4C68 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 473692364A5045C4EB25EA472A711EE7 /* Foundation.framework */; };
+		C0771719A7CF3BC47ED28227C95B4C68 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3294AC8269EE0DC5EC2AAD266765B2A7 /* Foundation.framework */; };
 		C0C02C0810B6E5BE2283B67DA64C47B3 /* CTObjectSerializerContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F11609FE3180FED3503FEA3F840226F /* CTObjectSerializerContext.m */; };
 		C24DE3FBF5D863BA2C22A327DF6660CD /* BNCDeviceSystem.m in Sources */ = {isa = PBXBuildFile; fileRef = 357B497FCBB9690FCE79A70AF325CC57 /* BNCDeviceSystem.m */; };
-		C2F1FC829B865BA4B6FC068480283F6F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 473692364A5045C4EB25EA472A711EE7 /* Foundation.framework */; };
+		C2F1FC829B865BA4B6FC068480283F6F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3294AC8269EE0DC5EC2AAD266765B2A7 /* Foundation.framework */; };
 		C33F2CF16A4758D173910EDA515641BA /* CTPassThroughValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 31203BE8DB17663FC0A631C9B3FA50AE /* CTPassThroughValueTransformer.m */; };
 		C3498F4F7EFEB51E3D0D0E7A5EF45E2B /* Inbox.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CEE1C154EB0C8CBF02024C56EF912C55 /* Inbox.xcdatamodeld */; };
 		C354967CBE407AA23A61FB0296E3DFCF /* BranchEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = D3FE07149547E4FCF9314F2B00E26157 /* BranchEvent.m */; };
 		C4E4BC50D72C61ADBD1FB7446F53B5C5 /* BNCDeviceInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 36293847AF88353EF82D466ECA85513D /* BNCDeviceInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C5250BD158848288920489C677012D84 /* SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 271F46313819FCEDEB55249154AE604B /* SDWebImage.framework */; };
+		C5250BD158848288920489C677012D84 /* SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD8972DD552B114F4EEFED99ABEAC1AE /* SDWebImage.framework */; };
 		C55894C17ACC87B0802F018181C898CA /* CTEditorSession.m in Sources */ = {isa = PBXBuildFile; fileRef = A534811A1CD54067EC0E5DD064195FFB /* CTEditorSession.m */; };
 		C55E8205C67F3562FEFB6D988A24358B /* CTFeatureFlagsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 168CBE8B4795204872AFB0833C1DE752 /* CTFeatureFlagsController.m */; };
 		C6C0FCCE7D60CB1888428DE97217BB2B /* UIImage+ForceDecode.m in Sources */ = {isa = PBXBuildFile; fileRef = F9F5D9AB67A026554D410FC5CF777D51 /* UIImage+ForceDecode.m */; };
@@ -482,7 +482,7 @@
 		C844FB4580473081B60227DC5E179911 /* CTMessageMO.m in Sources */ = {isa = PBXBuildFile; fileRef = 79EC3AAC05287C607A44BAD72D521A46 /* CTMessageMO.m */; };
 		C8BA3A9CA83EB66B2C8A113C7E25DB5E /* SDAsyncBlockOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F898E0A4529DE772194F546F6385300 /* SDAsyncBlockOperation.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		C976662DCB980DC80039D92602E57574 /* SDAnimatedImage.m in Sources */ = {isa = PBXBuildFile; fileRef = C0A70576D98E08E0858655ABE0064FA5 /* SDAnimatedImage.m */; };
-		C98531A8A7B7F29563EE6E721A7E875E /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E8F32F1DF3E0D64C54176C4B20501B0 /* ImageIO.framework */; };
+		C98531A8A7B7F29563EE6E721A7E875E /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AEA0407C35B45988775E4B259F303C5 /* ImageIO.framework */; };
 		CAA6C7F9498782629AFF9A738A5ADC5A /* SDImageIOAnimatedCoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 486DC1E677F888AB18CB52587324E1EB /* SDImageIOAnimatedCoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CABF19BA2940DE2932385CA01C064E35 /* BNCDeviceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D88FF904DC6B97D19D3D5038121EBD0 /* BNCDeviceInfo.m */; };
 		CB0FDD2F446CEA0DE131237E18D36159 /* CTNSDictionaryFromUIFontValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 489A98436BD1B22A0C6C8869ADCCFC84 /* CTNSDictionaryFromUIFontValueTransformer.m */; };
@@ -687,7 +687,6 @@
 		0CEC94A7DE2F1FCBB0814B3B52F469E6 /* BranchRedeemRewardsRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BranchRedeemRewardsRequest.m; path = "Branch-SDK/BranchRedeemRewardsRequest.m"; sourceTree = "<group>"; };
 		0D4399402B30E47996908ED88BC5CCF7 /* Pods_BranchIntegration__macOS_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BranchIntegration__macOS_.framework; path = "Pods-BranchIntegration (macOS).framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D4FD02763B0F39BAA43721DE275CDF1 /* BNCAppleSearchAds.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BNCAppleSearchAds.h; path = "Branch-SDK/BNCAppleSearchAds.h"; sourceTree = "<group>"; };
-		0E08C25CAE1B5C4B070086783C20B1C7 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/WebKit.framework; sourceTree = DEVELOPER_DIR; };
 		0F006B4CDBB04748CACD0E9A93CBBDA4 /* BranchCPIDRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BranchCPIDRequest.h; path = "Branch-SDK/BranchCPIDRequest.h"; sourceTree = "<group>"; };
 		0F34F0080F19EA29F7775D02B20E3A3D /* Branch+Validator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Branch+Validator.m"; path = "Branch-SDK/Branch+Validator.m"; sourceTree = "<group>"; };
 		0F4069817BC1456392A2D71DD1FAF5B9 /* Pods-BranchIntegration (iOS)-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BranchIntegration (iOS)-frameworks.sh"; sourceTree = "<group>"; };
@@ -719,6 +718,7 @@
 		19030E9E42D197E2D0B47D6A64D19828 /* CTInAppHTMLViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTInAppHTMLViewController.m; path = CleverTapSDK/InApps/CTInAppHTMLViewController.m; sourceTree = "<group>"; };
 		19265E915FA1481F0475E1896EC4AA54 /* CleverTapProductConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CleverTapProductConfig.m; path = CleverTapSDK/ProductConfig/models/CleverTapProductConfig.m; sourceTree = "<group>"; };
 		1A2231702051556DEF888C6A719BC09A /* CleverTapUTMDetail.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CleverTapUTMDetail.m; path = CleverTapSDK/CleverTapUTMDetail.m; sourceTree = "<group>"; };
+		1AEA0407C35B45988775E4B259F303C5 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/ImageIO.framework; sourceTree = DEVELOPER_DIR; };
 		1B65BF0189E2DFD9EDC3EC96BB100ABC /* Branch-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Branch-Info.plist"; sourceTree = "<group>"; };
 		1B840CCE11E1F5DE5E5B22135C3A9C4F /* CTFeatureFlagsController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTFeatureFlagsController.h; path = CleverTapSDK/FeatureFlags/controllers/CTFeatureFlagsController.h; sourceTree = "<group>"; };
 		1B8605D52A1D4234718EC0BC880BDD94 /* BranchShareLink.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BranchShareLink.m; path = "Branch-SDK/BranchShareLink.m"; sourceTree = "<group>"; };
@@ -757,8 +757,8 @@
 		25E010073481C98884207B4811629BA8 /* Pods-BranchIntegration (iOS)-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BranchIntegration (iOS)-acknowledgements.markdown"; sourceTree = "<group>"; };
 		2697007DDD9C792209E70EE22FE00105 /* SDWeakProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWeakProxy.m; path = SDWebImage/Private/SDWeakProxy.m; sourceTree = "<group>"; };
 		26BF65063E6663BB99FAF4B9AA2B080C /* BNCCallbackMap.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BNCCallbackMap.m; path = "Branch-SDK/BNCCallbackMap.m"; sourceTree = "<group>"; };
-		271F46313819FCEDEB55249154AE604B /* SDWebImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SDWebImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		277E8FDDDD7731934FA2B9E286D451F3 /* BranchScene.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BranchScene.m; path = "Branch-SDK/BranchScene.m"; sourceTree = "<group>"; };
+		278A9614C5E5C0E9529B6D5A4437E188 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/iAd.framework; sourceTree = DEVELOPER_DIR; };
 		278F9EB277A910FBA3B93929D580BDB5 /* SDImageGraphics.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageGraphics.m; path = SDWebImage/Core/SDImageGraphics.m; sourceTree = "<group>"; };
 		27BB7018F74EED5361600E18FF0962C8 /* Pods-BranchIntegration (iOS)-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BranchIntegration (iOS)-umbrella.h"; sourceTree = "<group>"; };
 		28061D55E86C73F555641A2BC7383ABA /* CTEnumDescription.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTEnumDescription.m; path = CleverTapSDK/ABTesting/uieditor/serializers/CTEnumDescription.m; sourceTree = "<group>"; };
@@ -783,6 +783,7 @@
 		2FD3C80EE15B728AF4BD19F9EC8485D3 /* CTCarouselMessageCell~port.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = "CTCarouselMessageCell~port.xib"; path = "CleverTapSDK/Inbox/cells/CTCarouselMessageCell~port.xib"; sourceTree = "<group>"; };
 		31203BE8DB17663FC0A631C9B3FA50AE /* CTPassThroughValueTransformer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTPassThroughValueTransformer.m; path = CleverTapSDK/ABTesting/uieditor/transformers/CTPassThroughValueTransformer.m; sourceTree = "<group>"; };
 		3190376755320FC43D9C9A010CDB8FE8 /* SDImageHEICCoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageHEICCoder.m; path = SDWebImage/Core/SDImageHEICCoder.m; sourceTree = "<group>"; };
+		3294AC8269EE0DC5EC2AAD266765B2A7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		33DC310B8D10DB2C07D17EFFD332FE64 /* CTInterstitialViewController~iphoneport.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = "CTInterstitialViewController~iphoneport.xib"; path = "CleverTapSDK/InApps/CTInterstitialViewController~iphoneport.xib"; sourceTree = "<group>"; };
 		347E629F81A2D909CBD2BF11283F6A81 /* BNCJSONUtility.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BNCJSONUtility.m; path = "Branch-SDK/BNCJSONUtility.m"; sourceTree = "<group>"; };
 		3509099DCA33C9A74CEA462A69EC1215 /* SDWebImage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SDWebImage.debug.xcconfig; sourceTree = "<group>"; };
@@ -816,6 +817,7 @@
 		3C8BE78139EE3C311121AEEDA0720006 /* CTEnumDescription.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTEnumDescription.h; path = CleverTapSDK/ABTesting/uieditor/serializers/CTEnumDescription.h; sourceTree = "<group>"; };
 		3CA66507DB393007DC2C70563046EC43 /* CTDismissButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTDismissButton.m; path = CleverTapSDK/InApps/CTDismissButton.m; sourceTree = "<group>"; };
 		3CD46034887F0DF3B1E093372DEFAA19 /* BranchUniversalObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BranchUniversalObject.m; path = "Branch-SDK/BranchUniversalObject.m"; sourceTree = "<group>"; };
+		3CD56E17883F7E1EA6E2F6C524EB354B /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/WebKit.framework; sourceTree = DEVELOPER_DIR; };
 		3CF4BE735DC6193275BB2DB1135AB8A3 /* CTObjectSelector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTObjectSelector.h; path = CleverTapSDK/ABTesting/uieditor/serializers/CTObjectSelector.h; sourceTree = "<group>"; };
 		3D162536353E2CA3FEC6BF4C640A3EBA /* CTInboxSimpleMessageCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTInboxSimpleMessageCell.m; path = CleverTapSDK/Inbox/cells/CTInboxSimpleMessageCell.m; sourceTree = "<group>"; };
 		3D9A998BC04B5CAE97A24C0D2A974F9F /* UIImage+MemoryCacheCost.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+MemoryCacheCost.h"; path = "SDWebImage/Core/UIImage+MemoryCacheCost.h"; sourceTree = "<group>"; };
@@ -839,7 +841,6 @@
 		46D423BAC95B136B03EFA30D4A047B81 /* Branch-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Branch-prefix.pch"; sourceTree = "<group>"; };
 		471C8F7B4661547FC2C16CCB093B042D /* CTNSNumberFromBOOLValueTransformer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTNSNumberFromBOOLValueTransformer.m; path = CleverTapSDK/ABTesting/uieditor/transformers/CTNSNumberFromBOOLValueTransformer.m; sourceTree = "<group>"; };
 		472E2D9097A55FC7BD1641EC01AF4808 /* CTClassDescription.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTClassDescription.m; path = CleverTapSDK/ABTesting/uieditor/serializers/CTClassDescription.m; sourceTree = "<group>"; };
-		473692364A5045C4EB25EA472A711EE7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		47E7BC921971EADE0975F6CFE67E1AA9 /* BNCServerResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BNCServerResponse.m; path = "Branch-SDK/BNCServerResponse.m"; sourceTree = "<group>"; };
 		47FE3AA24075D3BF504F0CEF0A858311 /* CTNotificationButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTNotificationButton.m; path = CleverTapSDK/CTNotificationButton.m; sourceTree = "<group>"; };
 		4814F0EDCBFF0BA7C08A6A762731D290 /* BNCNetworkService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BNCNetworkService.h; path = "Branch-SDK/BNCNetworkService.h"; sourceTree = "<group>"; };
@@ -857,7 +858,6 @@
 		4C59B16E8441468612525A844F7A393B /* SDImageCachesManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageCachesManager.m; path = SDWebImage/Core/SDImageCachesManager.m; sourceTree = "<group>"; };
 		4D27C2007B6344BB05775726CDBEB3AF /* CTCarouselImageMessageCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTCarouselImageMessageCell.m; path = CleverTapSDK/Inbox/cells/CTCarouselImageMessageCell.m; sourceTree = "<group>"; };
 		4D32415D170F071260A069D002C3B5A4 /* BNCConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BNCConfig.m; path = "Branch-SDK/BNCConfig.m"; sourceTree = "<group>"; };
-		4DC35A1984196F9E015B04E9E90E0BF8 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
 		4DE376B0EE890AE37A17A4D398D16DB0 /* SDAnimatedImagePlayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDAnimatedImagePlayer.h; path = SDWebImage/Core/SDAnimatedImagePlayer.h; sourceTree = "<group>"; };
 		4E21BBE0B7CE0D8D3E0493C35D648701 /* CTVarCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTVarCache.m; path = CleverTapSDK/ABTesting/models/CTVarCache.m; sourceTree = "<group>"; };
 		4E2C4AC045B49D9F672E968C1565A8B7 /* CTInAppResources.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTInAppResources.h; path = CleverTapSDK/CTInAppResources.h; sourceTree = "<group>"; };
@@ -947,14 +947,12 @@
 		761857BA5BA47DD9F39DDC725480E0A9 /* Branch.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Branch.m; path = "Branch-SDK/Branch.m"; sourceTree = "<group>"; };
 		769D3763DB17E10A0F922CE172C4F533 /* CTEditorImageCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTEditorImageCache.h; path = CleverTapSDK/ABTesting/uieditor/CTEditorImageCache.h; sourceTree = "<group>"; };
 		7761F3CD429A5E49B3AB12972838C75D /* BranchRegisterViewRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BranchRegisterViewRequest.h; path = "Branch-SDK/BranchRegisterViewRequest.h"; sourceTree = "<group>"; };
-		7778B6B66BD15AB4088C0CE21EA26C24 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/iAd.framework; sourceTree = DEVELOPER_DIR; };
 		77C00B9F2BC3EF04F31878B64E90D5E5 /* UIView+WebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+WebCache.h"; path = "SDWebImage/Core/UIView+WebCache.h"; sourceTree = "<group>"; };
 		78170449BBDB42B69D939229D1DEFBA6 /* SDAnimatedImageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDAnimatedImageView.m; path = SDWebImage/Core/SDAnimatedImageView.m; sourceTree = "<group>"; };
 		794C38E51EB7F1C3DE445F5EC5641C68 /* ic_pause@1x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ic_pause@1x.png"; path = "CleverTapSDK/InApps/images/ic_pause@1x.png"; sourceTree = "<group>"; };
 		79919859112CF8DC9E769AB69310BD7C /* BranchContentDiscoverer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BranchContentDiscoverer.m; path = "Branch-SDK/BranchContentDiscoverer.m"; sourceTree = "<group>"; };
 		79EC3AAC05287C607A44BAD72D521A46 /* CTMessageMO.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTMessageMO.m; path = CleverTapSDK/Inbox/models/CTMessageMO.m; sourceTree = "<group>"; };
 		7A2DFDF0C85F85CB41AE337A61C0B491 /* Pods-BranchIntegration (macOS).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BranchIntegration (macOS).debug.xcconfig"; sourceTree = "<group>"; };
-		7B01FD8B0E29035670BC700A3A8A37DB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
 		7B216F9EFE741A1457BADE73D7BA33E7 /* BNCContentDiscoveryManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BNCContentDiscoveryManager.h; path = "Branch-SDK/BNCContentDiscoveryManager.h"; sourceTree = "<group>"; };
 		7BD0898F0353E507C75BD27BAC9DFAB3 /* CleverTapSyncDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CleverTapSyncDelegate.h; path = CleverTapSDK/CleverTapSyncDelegate.h; sourceTree = "<group>"; };
 		7C5EF5DEF6527782998C34D1112B9F05 /* BNCSKAdNetwork.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BNCSKAdNetwork.m; path = "Branch-SDK/BNCSKAdNetwork.m"; sourceTree = "<group>"; };
@@ -1012,7 +1010,6 @@
 		8C88B7319A025A98683138134A33AE92 /* UIImage+MultiFormat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+MultiFormat.h"; path = "SDWebImage/Core/UIImage+MultiFormat.h"; sourceTree = "<group>"; };
 		8CBF76A0BC47CBE549F842C391A7F90A /* CTCoverViewController~iphoneport.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = "CTCoverViewController~iphoneport.xib"; path = "CleverTapSDK/InApps/CTCoverViewController~iphoneport.xib"; sourceTree = "<group>"; };
 		8E0A6A6D6931F1F1E5A79DD660924960 /* CTInterstitialViewController~iphoneland.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = "CTInterstitialViewController~iphoneland.xib"; path = "CleverTapSDK/InApps/CTInterstitialViewController~iphoneland.xib"; sourceTree = "<group>"; };
-		8E8F32F1DF3E0D64C54176C4B20501B0 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/ImageIO.framework; sourceTree = DEVELOPER_DIR; };
 		8EE1FC704DF1A99C85778DC0961DFB9D /* CTInboxIconMessageCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTInboxIconMessageCell.h; path = CleverTapSDK/Inbox/cells/CTInboxIconMessageCell.h; sourceTree = "<group>"; };
 		9022619C0E7860823A7D93D5BE26114B /* CTProfileBuilder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTProfileBuilder.m; path = CleverTapSDK/CTProfileBuilder.m; sourceTree = "<group>"; };
 		914B8A6CA4A1DEF605BC3BE70F9B87C2 /* CTVideoThumbnailGenerator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTVideoThumbnailGenerator.h; path = CleverTapSDK/Inbox/images/CTVideoThumbnailGenerator.h; sourceTree = "<group>"; };
@@ -1098,6 +1095,7 @@
 		B3B5D2BCEF05A025686F0632281458A0 /* SDWebImageCacheKeyFilter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageCacheKeyFilter.m; path = SDWebImage/Core/SDWebImageCacheKeyFilter.m; sourceTree = "<group>"; };
 		B3DACDD54B5AE8C6A6148D4E7A91D2A0 /* CTObjectSequenceGenerator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTObjectSequenceGenerator.h; path = CleverTapSDK/ABTesting/uieditor/serializers/CTObjectSequenceGenerator.h; sourceTree = "<group>"; };
 		B4175A223CE917B8B290252879F8A79D /* CleverTap-iOS-SDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CleverTap-iOS-SDK-dummy.m"; sourceTree = "<group>"; };
+		B53C4BA9454152CC99DFC4B1DFA24D88 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
 		B5CE6EBFD013217B8A3B8C1D2E011EAC /* BranchUniversalObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BranchUniversalObject.h; path = "Branch-SDK/BranchUniversalObject.h"; sourceTree = "<group>"; };
 		B5E8CDF69478CEF1B0CB1662B74A2FF7 /* BNCAvailability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BNCAvailability.h; path = "Branch-SDK/BNCAvailability.h"; sourceTree = "<group>"; };
 		B5FAAF974CB520999F3310D1F8122D3F /* UIImage+ForceDecode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+ForceDecode.h"; path = "SDWebImage/Core/UIImage+ForceDecode.h"; sourceTree = "<group>"; };
@@ -1171,6 +1169,7 @@
 		D1D2D3469DD86E6BB09B99CF91FC50AA /* CTObjectSerializerConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTObjectSerializerConfig.h; path = CleverTapSDK/ABTesting/uieditor/serializers/CTObjectSerializerConfig.h; sourceTree = "<group>"; };
 		D1E43B0EDC8C8D235D19128FD688D136 /* CleverTapFeatureFlags.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CleverTapFeatureFlags.m; path = CleverTapSDK/FeatureFlags/models/CleverTapFeatureFlags.m; sourceTree = "<group>"; };
 		D26C53A268F8943A93C68FB59723A5B2 /* ic_expand@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ic_expand@2x.png"; path = "CleverTapSDK/InApps/images/ic_expand@2x.png"; sourceTree = "<group>"; };
+		D2B93BBE2B728F0D213586580FB7E8A7 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreTelephony.framework; sourceTree = DEVELOPER_DIR; };
 		D3067A4AAA6CD97DD100EB3D1C556ED1 /* UIImageView+HighlightedWebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+HighlightedWebCache.m"; path = "SDWebImage/Core/UIImageView+HighlightedWebCache.m"; sourceTree = "<group>"; };
 		D32C12BFE9D8722E2BB70A5F4D02E19C /* SDWeakProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWeakProxy.h; path = SDWebImage/Private/SDWeakProxy.h; sourceTree = "<group>"; };
 		D3FE07149547E4FCF9314F2B00E26157 /* BranchEvent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BranchEvent.m; path = "Branch-SDK/BranchEvent.m"; sourceTree = "<group>"; };
@@ -1200,6 +1199,7 @@
 		DCD632BCE43D0ECEC4C945D6438CA1AE /* CleverTap-iOS-SDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "CleverTap-iOS-SDK.debug.xcconfig"; sourceTree = "<group>"; };
 		DDD9BA1595581F0D2C42703BB86885C4 /* CleverTapBuildInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CleverTapBuildInfo.h; path = CleverTapSDK/CleverTapBuildInfo.h; sourceTree = "<group>"; };
 		DDF27E7B6B7609D6F7C9E044012A4A96 /* CTClassDescription.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTClassDescription.h; path = CleverTapSDK/ABTesting/uieditor/serializers/CTClassDescription.h; sourceTree = "<group>"; };
+		DEB5CC28ACCBE21E8D28D8561FA31210 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreServices.framework; sourceTree = DEVELOPER_DIR; };
 		DECCFED9B29F792CBD1BC870CAB573F2 /* BranchOpenRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BranchOpenRequest.h; path = "Branch-SDK/BranchOpenRequest.h"; sourceTree = "<group>"; };
 		DF017D7D0191F022B5BDB9937971922D /* BranchCSSearchableItemAttributeSet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BranchCSSearchableItemAttributeSet.m; path = "Branch-SDK/BranchCSSearchableItemAttributeSet.m"; sourceTree = "<group>"; };
 		DF1D825604D02F5D99C291A3A0C99EF2 /* BNCEncodingUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BNCEncodingUtils.h; path = "Branch-SDK/BNCEncodingUtils.h"; sourceTree = "<group>"; };
@@ -1241,9 +1241,7 @@
 		ECC0A3803BB9280C273C24696EFDDAC6 /* BNCUserAgentCollector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BNCUserAgentCollector.h; path = "Branch-SDK/BNCUserAgentCollector.h"; sourceTree = "<group>"; };
 		ECC84040C0D97037CB569C33CE44E51C /* CTCarouselImageView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = CTCarouselImageView.xib; path = CleverTapSDK/Inbox/views/CTCarouselImageView.xib; sourceTree = "<group>"; };
 		ED18757D0BF4C090D89331CB7262461C /* BranchInstallRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BranchInstallRequest.h; path = "Branch-SDK/BranchInstallRequest.h"; sourceTree = "<group>"; };
-		ED31212A51F585C3B6D806775A2DC224 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreServices.framework; sourceTree = DEVELOPER_DIR; };
 		ED4D9431E9542FA7B8198EA535A340E5 /* CTEditorSession.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTEditorSession.h; path = CleverTapSDK/ABTesting/uieditor/CTEditorSession.h; sourceTree = "<group>"; };
-		ED8673B1947D25138D68A14893519A80 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreTelephony.framework; sourceTree = DEVELOPER_DIR; };
 		ED8B1E7F2B7149EC7EA425B0213E2FA8 /* CTProductConfigController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTProductConfigController.h; path = CleverTapSDK/ProductConfig/controllers/CTProductConfigController.h; sourceTree = "<group>"; };
 		EE4F69D283C7FBD8521F758049E08FB4 /* BranchDeepLinkingController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BranchDeepLinkingController.h; path = "Branch-SDK/BranchDeepLinkingController.h"; sourceTree = "<group>"; };
 		EE9359B57012DA2031D752496129E6DE /* SDImageAPNGCoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageAPNGCoder.h; path = SDWebImage/Core/SDImageAPNGCoder.h; sourceTree = "<group>"; };
@@ -1278,6 +1276,7 @@
 		FC25D6217A294AF944FAF74D04D8BEE6 /* ic_pause@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ic_pause@2x.png"; path = "CleverTapSDK/InApps/images/ic_pause@2x.png"; sourceTree = "<group>"; };
 		FCA0811DF35DB59F8A52FB65441F6E45 /* CTSwipeView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTSwipeView.h; path = CleverTapSDK/Inbox/views/CTSwipeView.h; sourceTree = "<group>"; };
 		FD1DBE6B9E8092CC3BF5AA9C5296902C /* BranchLogoutRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BranchLogoutRequest.h; path = "Branch-SDK/BranchLogoutRequest.h"; sourceTree = "<group>"; };
+		FD8972DD552B114F4EEFED99ABEAC1AE /* SDWebImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SDWebImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDAA3742FD0F010BBFFD67F2C4AF5ED5 /* UIColor+SDHexString.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+SDHexString.h"; path = "SDWebImage/Private/UIColor+SDHexString.h"; sourceTree = "<group>"; };
 		FDACFC438061044614FB5512448D9345 /* CTAlertViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTAlertViewController.h; path = CleverTapSDK/InApps/CTAlertViewController.h; sourceTree = "<group>"; };
 		FDFF6EF83EF2220BA13B620B7724D5BC /* CTSwizzle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTSwizzle.m; path = CleverTapSDK/CTSwizzle.m; sourceTree = "<group>"; };
@@ -1292,14 +1291,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				C2F1FC829B865BA4B6FC068480283F6F /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		12C4E17ECB1D7F02B7EC1FF73A04A695 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B23A227E80F601768257C457A6D66A49 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1334,6 +1325,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8EE317BF79B5CA5992F74BF124C293E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20E3A2F19CC5CB4B39B98392FB41776E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -1364,28 +1363,13 @@
 			path = "Target Support Files/Pods-BranchIntegration (iOS)";
 			sourceTree = "<group>";
 		};
-		2C76B4616EB1EA31358BE77C3C852747 /* Frameworks */ = {
+		28BFB26249C54BD5905EB4F3F402A69E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				271F46313819FCEDEB55249154AE604B /* SDWebImage.framework */,
-				2CBF5518EDC2B3ED1937A1D6A348ABDD /* iOS */,
-				4568F1CF039107BADE218D1C0D454F61 /* OS X */,
+				FD8972DD552B114F4EEFED99ABEAC1AE /* SDWebImage.framework */,
+				5F3E53E81A7CA8AC1E23F2861337681C /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		2CBF5518EDC2B3ED1937A1D6A348ABDD /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				ED31212A51F585C3B6D806775A2DC224 /* CoreServices.framework */,
-				ED8673B1947D25138D68A14893519A80 /* CoreTelephony.framework */,
-				473692364A5045C4EB25EA472A711EE7 /* Foundation.framework */,
-				7778B6B66BD15AB4088C0CE21EA26C24 /* iAd.framework */,
-				8E8F32F1DF3E0D64C54176C4B20501B0 /* ImageIO.framework */,
-				4DC35A1984196F9E015B04E9E90E0BF8 /* SystemConfiguration.framework */,
-				0E08C25CAE1B5C4B070086783C20B1C7 /* WebKit.framework */,
-			);
-			name = iOS;
 			sourceTree = "<group>";
 		};
 		3E445E43C34E684B3581103E92B7E500 /* Core */ = {
@@ -1537,14 +1521,6 @@
 			name = Core;
 			sourceTree = "<group>";
 		};
-		4568F1CF039107BADE218D1C0D454F61 /* OS X */ = {
-			isa = PBXGroup;
-			children = (
-				7B01FD8B0E29035670BC700A3A8A37DB /* Cocoa.framework */,
-			);
-			name = "OS X";
-			sourceTree = "<group>";
-		};
 		4B4151EBC19CC0E221766F612A09B571 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -1552,6 +1528,20 @@
 				83E0306F1C4FB91BD6BF4186888CABB0 /* Pods-BranchIntegration (macOS) */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5F3E53E81A7CA8AC1E23F2861337681C /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				DEB5CC28ACCBE21E8D28D8561FA31210 /* CoreServices.framework */,
+				D2B93BBE2B728F0D213586580FB7E8A7 /* CoreTelephony.framework */,
+				3294AC8269EE0DC5EC2AAD266765B2A7 /* Foundation.framework */,
+				278A9614C5E5C0E9529B6D5A4437E188 /* iAd.framework */,
+				1AEA0407C35B45988775E4B259F303C5 /* ImageIO.framework */,
+				B53C4BA9454152CC99DFC4B1DFA24D88 /* SystemConfiguration.framework */,
+				3CD56E17883F7E1EA6E2F6C524EB354B /* WebKit.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		756F75253BBA82D33F23CC01F473B20A /* Support Files */ = {
@@ -2027,7 +2017,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				2C76B4616EB1EA31358BE77C3C852747 /* Frameworks */,
+				28BFB26249C54BD5905EB4F3F402A69E /* Frameworks */,
 				0075424D869BF166E8E0139B6382F936 /* Pods */,
 				A8ED4AE09E1408BA31F98D305D887CE1 /* Products */,
 				4B4151EBC19CC0E221766F612A09B571 /* Targets Support Files */,
@@ -2429,7 +2419,7 @@
 			buildPhases = (
 				FF1489BB41601F6F3E71083069A55E7B /* Headers */,
 				37866820A3F576C229434A72D4D6372B /* Sources */,
-				12C4E17ECB1D7F02B7EC1FF73A04A695 /* Frameworks */,
+				8EE317BF79B5CA5992F74BF124C293E3 /* Frameworks */,
 				18C862109E04F622943C75BE22014253 /* Resources */,
 			);
 			buildRules = (
@@ -3053,40 +3043,69 @@
 			};
 			name = Release;
 		};
-		41082D9835D76AFE7EDB2A5DCD5A6CAF /* Debug */ = {
+		4BC7450F9457737EE3E637BA155B56F7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7A2DFDF0C85F85CB41AE337A61C0B491 /* Pods-BranchIntegration (macOS).debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-BranchIntegration (macOS)/Pods-BranchIntegration (macOS)-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
 					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/Frameworks",
 				);
-				MACH_O_TYPE = staticlib;
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				MODULEMAP_FILE = "Target Support Files/Pods-BranchIntegration (macOS)/Pods-BranchIntegration (macOS).modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
@@ -3265,7 +3284,7 @@
 			};
 			name = Release;
 		};
-		92236969D2CAE522F4C49923D0CA0A98 /* Release */ = {
+		8B5A46FF8D3C1289CDEE3BAFACABCD2A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -3316,7 +3335,6 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -3328,83 +3346,15 @@
 			};
 			name = Release;
 		};
-		94D663F2A5E10E3DBA580BD075610152 /* Debug */ = {
+		D872F48CEF3E87229882E0E3003148B0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_DEBUG=1",
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
-				MTL_FAST_MATH = YES;
-				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Debug;
-		};
-		A918C48DCE1EE7A15621A7BF6137D738 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3A2111979E03F3B491DC03799F53E3C4 /* Pods-BranchIntegration (macOS).release.xcconfig */;
+			baseConfigurationReference = 7A2DFDF0C85F85CB41AE337A61C0B491 /* Pods-BranchIntegration (macOS).debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -3412,25 +3362,26 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-BranchIntegration (macOS)/Pods-BranchIntegration (macOS)-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/../Frameworks",
+					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MODULEMAP_FILE = "Target Support Files/Pods-BranchIntegration (macOS)/Pods-BranchIntegration (macOS).modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = macosx;
+				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		F38C476556FC1109120E751F1385BA44 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -3466,6 +3417,44 @@
 			};
 			name = Debug;
 		};
+		F88BCAFC970205AE3A1D984F394F453F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A2111979E03F3B491DC03799F53E3C4 /* Pods-BranchIntegration (macOS).release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BranchIntegration (macOS)/Pods-BranchIntegration (macOS)-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BranchIntegration (macOS)/Pods-BranchIntegration (macOS).modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -3481,8 +3470,8 @@
 		43EE1D2D5EE93F48CC19B01EF3A1BFB4 /* Build configuration list for PBXNativeTarget "Pods-BranchIntegration (macOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				41082D9835D76AFE7EDB2A5DCD5A6CAF /* Debug */,
-				A918C48DCE1EE7A15621A7BF6137D738 /* Release */,
+				D872F48CEF3E87229882E0E3003148B0 /* Debug */,
+				F88BCAFC970205AE3A1D984F394F453F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -3490,8 +3479,8 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				94D663F2A5E10E3DBA580BD075610152 /* Debug */,
-				92236969D2CAE522F4C49923D0CA0A98 /* Release */,
+				4BC7450F9457737EE3E637BA155B56F7 /* Debug */,
+				8B5A46FF8D3C1289CDEE3BAFACABCD2A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
