@@ -24,6 +24,7 @@
 		AD44F8C190C58B9357E1E398 /* Pods-BranchIntegration (macOS).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BranchIntegration (macOS).release.xcconfig"; path = "Target Support Files/Pods-BranchIntegration (macOS)/Pods-BranchIntegration (macOS).release.xcconfig"; sourceTree = "<group>"; };
 		AF7CD3B6327D6BB4492EABB9 /* Pods_BranchIntegration__iOS_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BranchIntegration__iOS_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2453E94F38AD400F3960FE6 /* Pods_BranchIntegration__macOS_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BranchIntegration__macOS_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC10468225AC5A2500A33113 /* BranchIntegration.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BranchIntegration.entitlements; sourceTree = "<group>"; };
 		ECEF85AB25A5D1DC00FA1657 /* BranchIntegrationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BranchIntegrationApp.swift; sourceTree = "<group>"; };
 		ECEF85AC25A5D1DC00FA1657 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		ECEF85AD25A5D1DE00FA1657 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -77,6 +78,7 @@
 		ECEF85A525A5D1DC00FA1657 = {
 			isa = PBXGroup;
 			children = (
+				EC10468225AC5A2500A33113 /* BranchIntegration.entitlements */,
 				ECEF85AA25A5D1DC00FA1657 /* Shared */,
 				ECEF85B425A5D1DE00FA1657 /* iOS */,
 				ECEF85BB25A5D1DE00FA1657 /* macOS */,
@@ -420,6 +422,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = BranchIntegration.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A5J34NR598;
 				ENABLE_PREVIEWS = YES;
@@ -443,6 +446,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = BranchIntegration.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A5J34NR598;
 				ENABLE_PREVIEWS = YES;

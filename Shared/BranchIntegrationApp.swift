@@ -8,9 +8,11 @@
 import SwiftUI
 import UIKit
 import CleverTapSDK
+import Branch
 
 class AppDelegate: NSObject, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
+        
         CleverTap.autoIntegrate()
         
         let profile = [
@@ -21,6 +23,8 @@ class AppDelegate: NSObject, UIApplicationDelegate {
         ]
 
         CleverTap.sharedInstance()?.profilePush(profile)
+        
+        Branch.getInstance().validateSDKIntegration()
         
         return true
     }
