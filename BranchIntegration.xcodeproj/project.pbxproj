@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		5E16E958AF148BE13A2BB91D /* Pods_BranchIntegration__macOS_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2453E94F38AD400F3960FE6 /* Pods_BranchIntegration__macOS_.framework */; };
 		C7CB6A88F6DAB357A1F39B08 /* Pods_BranchIntegration__iOS_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF7CD3B6327D6BB4492EABB9 /* Pods_BranchIntegration__iOS_.framework */; };
+		EC3A18C725AD966C00E363E9 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3A18C625AD966C00E363E9 /* DetailView.swift */; };
+		EC3A18C825AD966C00E363E9 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3A18C625AD966C00E363E9 /* DetailView.swift */; };
 		ECEF85BE25A5D1DE00FA1657 /* BranchIntegrationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECEF85AB25A5D1DC00FA1657 /* BranchIntegrationApp.swift */; };
 		ECEF85BF25A5D1DE00FA1657 /* BranchIntegrationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECEF85AB25A5D1DC00FA1657 /* BranchIntegrationApp.swift */; };
 		ECEF85C025A5D1DE00FA1657 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECEF85AC25A5D1DC00FA1657 /* ContentView.swift */; };
@@ -25,6 +27,7 @@
 		AF7CD3B6327D6BB4492EABB9 /* Pods_BranchIntegration__iOS_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BranchIntegration__iOS_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2453E94F38AD400F3960FE6 /* Pods_BranchIntegration__macOS_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BranchIntegration__macOS_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC10468225AC5A2500A33113 /* BranchIntegration.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BranchIntegration.entitlements; sourceTree = "<group>"; };
+		EC3A18C625AD966C00E363E9 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		ECEF85AB25A5D1DC00FA1657 /* BranchIntegrationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BranchIntegrationApp.swift; sourceTree = "<group>"; };
 		ECEF85AC25A5D1DC00FA1657 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		ECEF85AD25A5D1DE00FA1657 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -93,6 +96,7 @@
 			children = (
 				ECEF85AB25A5D1DC00FA1657 /* BranchIntegrationApp.swift */,
 				ECEF85AC25A5D1DC00FA1657 /* ContentView.swift */,
+				EC3A18C625AD966C00E363E9 /* DetailView.swift */,
 				ECEF85AD25A5D1DE00FA1657 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -289,6 +293,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ECEF85C025A5D1DE00FA1657 /* ContentView.swift in Sources */,
+				EC3A18C725AD966C00E363E9 /* DetailView.swift in Sources */,
 				ECEF85BE25A5D1DE00FA1657 /* BranchIntegrationApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -298,6 +303,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ECEF85C125A5D1DE00FA1657 /* ContentView.swift in Sources */,
+				EC3A18C825AD966C00E363E9 /* DetailView.swift in Sources */,
 				ECEF85BF25A5D1DE00FA1657 /* BranchIntegrationApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -472,6 +478,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = A5J34NR598;
@@ -497,6 +504,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = A5J34NR598;

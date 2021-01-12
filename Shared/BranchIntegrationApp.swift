@@ -24,7 +24,7 @@ class AppDelegate: NSObject, UIApplicationDelegate {
 
         CleverTap.sharedInstance()?.profilePush(profile)
         
-        Branch.getInstance().validateSDKIntegration()
+//        Branch.getInstance().validateSDKIntegration()
         
         return true
     }
