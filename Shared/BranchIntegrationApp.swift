@@ -9,8 +9,10 @@ import SwiftUI
 import UIKit
 import CleverTapSDK
 import Branch
+import UserNotifications
 
-class AppDelegate: NSObject, UIApplicationDelegate {
+class AppDelegate: NSObject, UIApplicationDelegate, UNUserNotificationCenterDelegate {
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
         
         CleverTap.autoIntegrate()
@@ -21,10 +23,30 @@ class AppDelegate: NSObject, UIApplicationDelegate {
             "Plan type": "Silver",
             "Favorite Food": "Pizza"
         ]
-
+        
         CleverTap.sharedInstance()?.profilePush(profile)
         
-//        Branch.getInstance().validateSDKIntegration()
+        let branch: Branch = Branch.getInstance()
+        branch.initSession(launchOptions: launchOptions)
+        
+        //        Branch.getInstance().validateSDKIntegration()
+        
+        let center = UNUserNotificationCenter.current()
+        center.delegate = self;
+        center.requestAuthorization(options: [.sound,.alert,.badge]) { (granted, error) in
+            if granted {
+                print("Notification Enable Successfully")
+            } else {
+                print("Some Error Occure")
+            }
+        }
+        
+        application.registerForRemoteNotifications()
+        
+        
+        return true
+    }
+    
     func application(_ app: UIApplication, open url: URL, options: [UIApplication.OpenURLOptionsKey : Any] = [:]) -> Bool {
         
         CleverTap.sharedInstance()?.handleOpen(url, sourceApplication: nil)
@@ -45,6 +67,16 @@ class AppDelegate: NSObject, UIApplicationDelegate {
         Branch.getInstance().handlePushNotification(launchOptions)
     }
     
+    
+    // MARK: - Push Notifications
+    
+    func userNotificationCenter(_ center: UNUserNotificationCenter, willPresent notification: UNNotification, withCompletionHandler completionHandler: @escaping (UNNotificationPresentationOptions) -> Void) {
+        
+    }
+    
+    func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive response: UNNotificationResponse, withCompletionHandler completionHandler: @escaping () -> Void) {
+        
+    }
 }
 
 @main
