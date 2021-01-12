@@ -25,9 +25,26 @@ class AppDelegate: NSObject, UIApplicationDelegate {
         CleverTap.sharedInstance()?.profilePush(profile)
         
 //        Branch.getInstance().validateSDKIntegration()
+    func application(_ app: UIApplication, open url: URL, options: [UIApplication.OpenURLOptionsKey : Any] = [:]) -> Bool {
+        
+        CleverTap.sharedInstance()?.handleOpen(url, sourceApplication: nil)
+        
+        Branch.getInstance().application(app, open: url, options: options)
         
         return true
     }
+    
+    func application(_ application: UIApplication, continue userActivity: NSUserActivity, restorationHandler: @escaping ([UIUserActivityRestoring]?) -> Void) -> Bool {
+        
+        let handledByBranch = Branch.getInstance().continue(userActivity)
+        
+        return handledByBranch
+    }
+    
+    func application(_ application: UIApplication, didReceiveRemoteNotification launchOptions: [AnyHashable: Any]) -> Void {
+        Branch.getInstance().handlePushNotification(launchOptions)
+    }
+    
 }
 
 @main
