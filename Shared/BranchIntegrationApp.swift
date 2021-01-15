@@ -11,7 +11,7 @@ import CleverTapSDK
 import Branch
 import UserNotifications
 
-class AppDelegate: NSObject, UIApplicationDelegate, UNUserNotificationCenterDelegate {
+class AppDelegate: NSObject, UIApplicationDelegate, UNUserNotificationCenterDelegate, CleverTapInAppNotificationDelegate {
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
         
@@ -25,6 +25,7 @@ class AppDelegate: NSObject, UIApplicationDelegate, UNUserNotificationCenterDele
         ]
         
         CleverTap.sharedInstance()?.profilePush(profile)
+        CleverTap.sharedInstance()?.setInAppNotificationDelegate(self)
         
         let branch: Branch = Branch.getInstance()
         branch.initSession(launchOptions: launchOptions)
@@ -88,6 +89,20 @@ class AppDelegate: NSObject, UIApplicationDelegate, UNUserNotificationCenterDele
         
         print(userInfo)
         CleverTap.sharedInstance()?.recordNotificationClickedEvent(withData: userInfo)
+    }
+    
+    
+    // CleverTap Inapp
+    
+    func inAppNotificationDismissed(withExtras extras: [AnyHashable : Any]!, andActionExtras actionExtras: [AnyHashable : Any]!) {
+        
+        print(extras ?? "No extras")
+        print(actionExtras ?? "No actionExtras")
+    }
+    
+    func inAppNotificationButtonTapped(withCustomExtras customExtras: [AnyHashable : Any]!) {
+        
+        print(customExtras ?? "No customExtras")
     }
 }
 
