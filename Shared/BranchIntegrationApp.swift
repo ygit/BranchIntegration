@@ -63,8 +63,12 @@ class AppDelegate: NSObject, UIApplicationDelegate, UNUserNotificationCenterDele
         return handledByBranch
     }
     
-    func application(_ application: UIApplication, didReceiveRemoteNotification launchOptions: [AnyHashable: Any]) -> Void {
-        Branch.getInstance().handlePushNotification(launchOptions)
+    func application(_ application: UIApplication, didReceiveRemoteNotification userInfo: [AnyHashable : Any], fetchCompletionHandler completionHandler: @escaping (UIBackgroundFetchResult) -> Void) {
+     
+        print(userInfo)
+        Branch.getInstance().handlePushNotification(userInfo)
+        CleverTap.sharedInstance()?.recordNotificationViewedEvent(withData: userInfo)
+        completionHandler(.newData)
     }
     
     
@@ -72,10 +76,18 @@ class AppDelegate: NSObject, UIApplicationDelegate, UNUserNotificationCenterDele
     
     func userNotificationCenter(_ center: UNUserNotificationCenter, willPresent notification: UNNotification, withCompletionHandler completionHandler: @escaping (UNNotificationPresentationOptions) -> Void) {
         
+        let userInfo = notification.request.content.userInfo
+        
+        print(userInfo)
+        CleverTap.sharedInstance()?.recordNotificationViewedEvent(withData: userInfo)
     }
     
     func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive response: UNNotificationResponse, withCompletionHandler completionHandler: @escaping () -> Void) {
         
+        let userInfo = response.notification.request.content.userInfo
+        
+        print(userInfo)
+        CleverTap.sharedInstance()?.recordNotificationClickedEvent(withData: userInfo)
     }
 }
 
