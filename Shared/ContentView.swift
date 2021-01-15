@@ -15,10 +15,12 @@ struct ContentView: View {
                 NavigationLink(destination: DetailView()) {
                     Text("Do Something")
                 }
+                NavigationLink(destination: AppInboxView()) {
+                    Text("Show App Inbox")
+                }
             }
         }
     }
-    
 }
 
 struct ContentView_Previews: PreviewProvider {
